@@ -1,43 +1,4 @@
-
-# 📌 Grupo 4
-## 📌 TAREA 01: Despliegue MySQL 9.0 + phpMyAdmin 5.2.1 en Docker
-
-
----
-
-## 🚀 Integrantes
-| Nro. | Nombre | Link |
-|------|---------|---------|
-| 1 | Giovanni Xavier Baño Jaya | https://github.com/Giovanni26101982/Grupo4_Docker_Tarea1#:~:text=Settings-,Grupo4_Docker_Tarea1,-Public |
-| 2 | Portero Salas Onofre Lolislao | https://github.com/oportero/Grupo4_Docker_Tarea1 |
-| 3 | Jara Pauta Cesar Paúl |   |
-| 4 | Maldonado Flores Oscar Alexander |  |
-| 5 | Balarezo Leon Ricardo Martin |  |
-
----
-
-## 📝 Descripción
-Desplegar una infraestructura de MySQL + phpMyAdmin usando contenedores, redes y volúmenes.  
-
----
-
-## 🚀 Características
-- MySQL 8.0  
-- phpMyAdmin
-
----  
-
-## 📂 Estructura
-```bash
-├── .env/          
-├── comandos.txt/         # Código fuente
-├── init.sql              # Base de datos
-├── README.md
-└── LICENSE
-```
---- 
-
-## 🛠 Desarrollo - Procedimiento
+# MySQL 8.0 + phpMyAdmin en Docker
 
 | Paso | Descripción | Comando |Resultado |
 |------|-------------|---------|---------|
@@ -48,12 +9,4 @@ Desplegar una infraestructura de MySQL + phpMyAdmin usando contenedores, redes y
 | 5 |Acceder desde el **navegador** y autenticarse con las credenciales de MySQL. | Abrir `http://localhost:8080/index.php?route=/` e ingresar con las credenciales configuradas en el contenedor MySQL |<img width="886" height="580" alt="image" src="https://github.com/user-attachments/assets/7dbb7dd2-8a42-4bc9-b649-8f24275792f5" /> <img width="886" height="553" alt="image" src="https://github.com/user-attachments/assets/e1dbae8b-4424-412e-a2ed-2978b0e81f7d" />|
 
 
----
 
-## ⚙️ Concluciones
-Explica el enfoque utilizado:  
-- Metodología de desarrollo (ágil, cascada, etc.)  
-- Herramientas empleadas.  
-- Flujo de trabajo.  
-
----
